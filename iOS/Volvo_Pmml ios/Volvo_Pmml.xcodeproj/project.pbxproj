@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D729AEA120FFAE9900021940 /* bt10xfftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729AEA020FFAE9900021940 /* bt10xfftViewController.swift */; };
+		D743F052210589DB00F301F1 /* bt10_bsf.html in Resources */ = {isa = PBXBuildFile; fileRef = D743F04E210589DA00F301F1 /* bt10_bsf.html */; };
+		D743F053210589DB00F301F1 /* bt10_bpfo.html in Resources */ = {isa = PBXBuildFile; fileRef = D743F04F210589DA00F301F1 /* bt10_bpfo.html */; };
+		D743F054210589DB00F301F1 /* bt10_ftf.html in Resources */ = {isa = PBXBuildFile; fileRef = D743F050210589DA00F301F1 /* bt10_ftf.html */; };
+		D743F055210589DB00F301F1 /* bt10_bpfi.html in Resources */ = {isa = PBXBuildFile; fileRef = D743F051210589DA00F301F1 /* bt10_bpfi.html */; };
+		D7556A6920FCD98A00D3A0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7556A6820FCD98A00D3A0C5 /* AppDelegate.swift */; };
+		D7556A6B20FCD98A00D3A0C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7556A6A20FCD98A00D3A0C5 /* HomeViewController.swift */; };
+		D7556A6E20FCD98A00D3A0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7556A6C20FCD98A00D3A0C5 /* Main.storyboard */; };
+		D7556A7020FCD98C00D3A0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7556A6F20FCD98C00D3A0C5 /* Assets.xcassets */; };
+		D7556A7320FCD98C00D3A0C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7556A7120FCD98C00D3A0C5 /* LaunchScreen.storyboard */; };
+		D7556A7D20FCF6D600D3A0C5 /* Womby-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D7556A7C20FCF6D600D3A0C5 /* Womby-Regular.otf */; };
+		D7AAF7422100DDEE00D90B20 /* bt10_drive_x_dash.html in Resources */ = {isa = PBXBuildFile; fileRef = D7AAF73D2100DDED00D90B20 /* bt10_drive_x_dash.html */; };
+		D7AAF7432100DDEE00D90B20 /* dash.html in Resources */ = {isa = PBXBuildFile; fileRef = D7AAF73E2100DDED00D90B20 /* dash.html */; };
+		D7AAF7442100DDEE00D90B20 /* bt10_drive_health_dash.html in Resources */ = {isa = PBXBuildFile; fileRef = D7AAF73F2100DDED00D90B20 /* bt10_drive_health_dash.html */; };
+		D7AAF7452100DDEE00D90B20 /* bt10_drive_y_dash.html in Resources */ = {isa = PBXBuildFile; fileRef = D7AAF7402100DDED00D90B20 /* bt10_drive_y_dash.html */; };
+		D7AAF7462100DDEE00D90B20 /* bt10_drive_z_dash.html in Resources */ = {isa = PBXBuildFile; fileRef = D7AAF7412100DDEE00D90B20 /* bt10_drive_z_dash.html */; };
+		D7AAF7482100F6EA00D90B20 /* bt10yfftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AAF7472100F6EA00D90B20 /* bt10yfftViewController.swift */; };
+		D7AAF74A2100FA3F00D90B20 /* bt10zfftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AAF7492100FA3F00D90B20 /* bt10zfftViewController.swift */; };
+		D7F8B0AD20FE549A00B0C532 /* bt10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8B0AC20FE549A00B0C532 /* bt10ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D729AEA020FFAE9900021940 /* bt10xfftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bt10xfftViewController.swift; sourceTree = "<group>"; };
+		D731AB1E20FD788F009BA51A /* Volvo_Pmml.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Volvo_Pmml.entitlements; sourceTree = "<group>"; };
+		D743F04E210589DA00F301F1 /* bt10_bsf.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_bsf.html; sourceTree = "<group>"; };
+		D743F04F210589DA00F301F1 /* bt10_bpfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_bpfo.html; sourceTree = "<group>"; };
+		D743F050210589DA00F301F1 /* bt10_ftf.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_ftf.html; sourceTree = "<group>"; };
+		D743F051210589DA00F301F1 /* bt10_bpfi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_bpfi.html; sourceTree = "<group>"; };
+		D7556A6520FCD98900D3A0C5 /* Volvo_Pmml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volvo_Pmml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7556A6820FCD98A00D3A0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7556A6A20FCD98A00D3A0C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7556A6D20FCD98A00D3A0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7556A6F20FCD98C00D3A0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7556A7220FCD98C00D3A0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7556A7420FCD98C00D3A0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7556A7C20FCF6D600D3A0C5 /* Womby-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Womby-Regular.otf"; path = "../../../College/Coding/Stuff/one/Womby-Font/Womby-Regular.otf"; sourceTree = "<group>"; };
+		D7556A7E20FD156B00D3A0C5 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../../../Library/Fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		D7AAF73D2100DDED00D90B20 /* bt10_drive_x_dash.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_drive_x_dash.html; sourceTree = "<group>"; };
+		D7AAF73E2100DDED00D90B20 /* dash.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dash.html; sourceTree = "<group>"; };
+		D7AAF73F2100DDED00D90B20 /* bt10_drive_health_dash.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_drive_health_dash.html; sourceTree = "<group>"; };
+		D7AAF7402100DDED00D90B20 /* bt10_drive_y_dash.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_drive_y_dash.html; sourceTree = "<group>"; };
+		D7AAF7412100DDEE00D90B20 /* bt10_drive_z_dash.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bt10_drive_z_dash.html; sourceTree = "<group>"; };
+		D7AAF7472100F6EA00D90B20 /* bt10yfftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bt10yfftViewController.swift; sourceTree = "<group>"; };
+		D7AAF7492100FA3F00D90B20 /* bt10zfftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bt10zfftViewController.swift; sourceTree = "<group>"; };
+		D7AAF74E2101067300D90B20 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		D7AAF74F2101067300D90B20 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		D7AAF7502101067300D90B20 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		D7AAF7512101067300D90B20 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		D7AAF7522101067300D90B20 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		D7AAF7532101067300D90B20 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		D7AAF7542101067300D90B20 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		D7AAF7552101067300D90B20 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		D7AAF7562101067300D90B20 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		D7AAF7572101067300D90B20 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		D7AAF7582101067300D90B20 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		D7AAF7592101067300D90B20 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		D7AAF75A2101067300D90B20 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		D7AAF75B2101067300D90B20 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		D7AAF75C2101067300D90B20 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		D7AAF75D2101067300D90B20 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		D7AAF75E2101067300D90B20 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		D7AAF75F2101067300D90B20 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		D7AAF7602101067300D90B20 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		D7AAF7612101067300D90B20 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		D7AAF7622101067300D90B20 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		D7AAF7632101067300D90B20 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		D7AAF7642101067300D90B20 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		D7AAF7652101067300D90B20 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		D7F8B0AC20FE549A00B0C532 /* bt10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bt10ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7556A6220FCD98900D3A0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7556A5C20FCD98900D3A0C5 = {
+			isa = PBXGroup;
+			children = (
+				D7556A6720FCD98900D3A0C5 /* Volvo_Pmml */,
+				D7556A6620FCD98900D3A0C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7556A6620FCD98900D3A0C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7556A6520FCD98900D3A0C5 /* Volvo_Pmml.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7556A6720FCD98900D3A0C5 /* Volvo_Pmml */ = {
+			isa = PBXGroup;
+			children = (
+				D731AB1E20FD788F009BA51A /* Volvo_Pmml.entitlements */,
+				D7556A6820FCD98A00D3A0C5 /* AppDelegate.swift */,
+				D7556A6A20FCD98A00D3A0C5 /* HomeViewController.swift */,
+				D7F8B0AC20FE549A00B0C532 /* bt10ViewController.swift */,
+				D729AEA020FFAE9900021940 /* bt10xfftViewController.swift */,
+				D7AAF7472100F6EA00D90B20 /* bt10yfftViewController.swift */,
+				D7AAF7492100FA3F00D90B20 /* bt10zfftViewController.swift */,
+				D7556A6C20FCD98A00D3A0C5 /* Main.storyboard */,
+				D7556A7E20FD156B00D3A0C5 /* Roboto-Black.ttf */,
+				D7556A7C20FCF6D600D3A0C5 /* Womby-Regular.otf */,
+				D7556A6F20FCD98C00D3A0C5 /* Assets.xcassets */,
+				D7AAF74D2101067300D90B20 /* AppIcon.appiconset */,
+				D7556A7120FCD98C00D3A0C5 /* LaunchScreen.storyboard */,
+				D7556A7420FCD98C00D3A0C5 /* Info.plist */,
+				D743F051210589DA00F301F1 /* bt10_bpfi.html */,
+				D743F04F210589DA00F301F1 /* bt10_bpfo.html */,
+				D743F04E210589DA00F301F1 /* bt10_bsf.html */,
+				D743F050210589DA00F301F1 /* bt10_ftf.html */,
+				D7AAF73F2100DDED00D90B20 /* bt10_drive_health_dash.html */,
+				D7AAF73D2100DDED00D90B20 /* bt10_drive_x_dash.html */,
+				D7AAF7402100DDED00D90B20 /* bt10_drive_y_dash.html */,
+				D7AAF7412100DDEE00D90B20 /* bt10_drive_z_dash.html */,
+				D7AAF73E2100DDED00D90B20 /* dash.html */,
+			);
+			path = Volvo_Pmml;
+			sourceTree = "<group>";
+		};
+		D7AAF74D2101067300D90B20 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				D7AAF74E2101067300D90B20 /* Icon-App-57x57@1x.png */,
+				D7AAF74F2101067300D90B20 /* Icon-App-76x76@2x.png */,
+				D7AAF7502101067300D90B20 /* Icon-App-29x29@1x.png */,
+				D7AAF7512101067300D90B20 /* Icon-App-60x60@1x.png */,
+				D7AAF7522101067300D90B20 /* Icon-Small-50x50@2x.png */,
+				D7AAF7532101067300D90B20 /* Icon-App-40x40@1x.png */,
+				D7AAF7542101067300D90B20 /* Icon-App-76x76@3x.png */,
+				D7AAF7552101067300D90B20 /* Icon-App-72x72@1x.png */,
+				D7AAF7562101067300D90B20 /* Icon-App-20x20@1x.png */,
+				D7AAF7572101067300D90B20 /* Icon-App-83.5x83.5@2x.png */,
+				D7AAF7582101067300D90B20 /* Icon-App-20x20@3x.png */,
+				D7AAF7592101067300D90B20 /* ItunesArtwork@2x.png */,
+				D7AAF75A2101067300D90B20 /* Contents.json */,
+				D7AAF75B2101067300D90B20 /* Icon-App-20x20@2x.png */,
+				D7AAF75C2101067300D90B20 /* Icon-App-29x29@3x.png */,
+				D7AAF75D2101067300D90B20 /* Icon-App-40x40@2x.png */,
+				D7AAF75E2101067300D90B20 /* Icon-App-72x72@2x.png */,
+				D7AAF75F2101067300D90B20 /* Icon-App-60x60@3x.png */,
+				D7AAF7602101067300D90B20 /* Icon-Small-50x50@1x.png */,
+				D7AAF7612101067300D90B20 /* Icon-App-60x60@2x.png */,
+				D7AAF7622101067300D90B20 /* Icon-App-57x57@2x.png */,
+				D7AAF7632101067300D90B20 /* Icon-App-76x76@1x.png */,
+				D7AAF7642101067300D90B20 /* Icon-App-40x40@3x.png */,
+				D7AAF7652101067300D90B20 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7556A6420FCD98900D3A0C5 /* Volvo_Pmml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7556A7720FCD98C00D3A0C5 /* Build configuration list for PBXNativeTarget "Volvo_Pmml" */;
+			buildPhases = (
+				D7556A6120FCD98900D3A0C5 /* Sources */,
+				D7556A6220FCD98900D3A0C5 /* Frameworks */,
+				D7556A6320FCD98900D3A0C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Volvo_Pmml;
+			productName = Volvo_Pmml;
+			productReference = D7556A6520FCD98900D3A0C5 /* Volvo_Pmml.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7556A5D20FCD98900D3A0C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Volvo Group";
+				TargetAttributes = {
+					D7556A6420FCD98900D3A0C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ClassKit = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D7556A6020FCD98900D3A0C5 /* Build configuration list for PBXProject "Volvo_Pmml" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7556A5C20FCD98900D3A0C5;
+			productRefGroup = D7556A6620FCD98900D3A0C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7556A6420FCD98900D3A0C5 /* Volvo_Pmml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7556A6320FCD98900D3A0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AAF7452100DDEE00D90B20 /* bt10_drive_y_dash.html in Resources */,
+				D7556A7320FCD98C00D3A0C5 /* LaunchScreen.storyboard in Resources */,
+				D7556A7D20FCF6D600D3A0C5 /* Womby-Regular.otf in Resources */,
+				D743F052210589DB00F301F1 /* bt10_bsf.html in Resources */,
+				D7AAF7422100DDEE00D90B20 /* bt10_drive_x_dash.html in Resources */,
+				D7556A7020FCD98C00D3A0C5 /* Assets.xcassets in Resources */,
+				D7AAF7432100DDEE00D90B20 /* dash.html in Resources */,
+				D743F053210589DB00F301F1 /* bt10_bpfo.html in Resources */,
+				D743F055210589DB00F301F1 /* bt10_bpfi.html in Resources */,
+				D7AAF7442100DDEE00D90B20 /* bt10_drive_health_dash.html in Resources */,
+				D7556A6E20FCD98A00D3A0C5 /* Main.storyboard in Resources */,
+				D743F054210589DB00F301F1 /* bt10_ftf.html in Resources */,
+				D7AAF7462100DDEE00D90B20 /* bt10_drive_z_dash.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7556A6120FCD98900D3A0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F8B0AD20FE549A00B0C532 /* bt10ViewController.swift in Sources */,
+				D7AAF7482100F6EA00D90B20 /* bt10yfftViewController.swift in Sources */,
+				D729AEA120FFAE9900021940 /* bt10xfftViewController.swift in Sources */,
+				D7556A6B20FCD98A00D3A0C5 /* HomeViewController.swift in Sources */,
+				D7556A6920FCD98A00D3A0C5 /* AppDelegate.swift in Sources */,
+				D7AAF74A2100FA3F00D90B20 /* bt10zfftViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7556A6C20FCD98A00D3A0C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7556A6D20FCD98A00D3A0C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7556A7120FCD98C00D3A0C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7556A7220FCD98C00D3A0C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7556A7520FCD98C00D3A0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7556A7620FCD98C00D3A0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7556A7820FCD98C00D3A0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSP9LJQBT3;
+				INFOPLIST_FILE = Volvo_Pmml/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.volvopmml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7556A7920FCD98C00D3A0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSP9LJQBT3;
+				INFOPLIST_FILE = Volvo_Pmml/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.volvopmml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7556A6020FCD98900D3A0C5 /* Build configuration list for PBXProject "Volvo_Pmml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7556A7520FCD98C00D3A0C5 /* Debug */,
+				D7556A7620FCD98C00D3A0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7556A7720FCD98C00D3A0C5 /* Build configuration list for PBXNativeTarget "Volvo_Pmml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7556A7820FCD98C00D3A0C5 /* Debug */,
+				D7556A7920FCD98C00D3A0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7556A5D20FCD98900D3A0C5 /* Project object */;
+}
